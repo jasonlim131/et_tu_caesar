@@ -1,3 +1,8 @@
+# should probably make
+# 40% of the critical threshold should be the dataset size that grokking occurs in
+# https://papers.neurips.cc/paper_files/paper/2022/file/dfc310e81992d2e4cedc09ac47eff13e-Paper-Conference.pdf (Figure 4)
+# TODO: calculate critical threshold for the caesar cipher text and determine size of n.
+
 def encrypt_text(plaintext, n, direction='forward'):
     ans = ""
     # Adjust the shift direction (negative shift for 'backward')
